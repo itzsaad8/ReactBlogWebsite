@@ -1,0 +1,28 @@
+.header{
+    margin-top: 60px;
+
+}
+.headertitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+    font-family: 'Varela Round', sans-serif;
+}
+.headertitlesm{
+    font-size: 20px;
+    top: 18%;
+    position: absolute;
+}
+.headertitlelg{
+    position: absolute;
+    top: 23%;
+    font-size: 100px;
+    color: #444;
+}
+.headerimg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}

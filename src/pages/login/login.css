@@ -1,0 +1,57 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(rgba(255,255,255,0.2) ,rgba(255,255,255,0.3)), url("https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg?size=626&ext=jpg&ga=GA1.2.1683494021.1686989078&semt=ais");
+    background-size: cover;
+    align-items: center;
+}
+.logintitle{
+    font-size: 50px;
+}
+.loginform{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+
+}
+.loginform > label{
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+.logininput{
+    padding: 10px;
+    /* color: rgb(14, 14, 14); */
+    /* width: 70%; */
+    /* height: 50px; */
+    border: none;
+    /* border: 1px solid rgb(57, 57, 57); */
+    /* background: transparent; */
+    border-radius: 10px;
+}
+.loginbutton1{
+    margin-top: 15px;
+    background-color:  teal;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.loginregbutton1{
+    text-decoration: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(231, 112, 66);
+    color: rgb(250, 247, 247);
+    /* height: 30px; */
+    padding: 10px;
+    cursor: pointer;
+}

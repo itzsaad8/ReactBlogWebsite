@@ -1,0 +1,80 @@
+.settings{
+    display: flex;
+}
+.settingswrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingstitle{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.settingupdatetitle{
+    font-size: 30px;
+    color: rgb(255, 140, 140);margin-bottom: 20px;
+}
+.settingdeletetitle{
+    font-size:12px ;
+    color: red;
+    cursor: pointer;
+}
+.settingsform{
+    display: flex;
+    flex-direction: column;
+}
+.settingspp{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+.settingspp > img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 0.5px solid rgb(108, 104, 104);
+}
+.settingsppicon{
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: rgb(202, 94, 94);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settingsform >label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.settingsform > input{
+    margin: 10px 0;
+    height: 30px;
+    color: grey;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.settingssubmit{
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: teal;
+    
+    color: rgb(51, 50, 50);
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    box-shadow: 0px 2px 3px  0.5px;
+    cursor: pointer;
+    /* padding: 20px; */
+}
+.settingssubmit:hover{
+    background-color: black;
+    color: white;
+}
