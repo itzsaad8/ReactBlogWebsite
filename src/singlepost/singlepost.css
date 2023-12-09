@@ -1,6 +1,7 @@
 .singlepost{
     flex: 9;
 }
+
 .singlepostwrapper{
     padding: 20px;
     padding-right: 0;
@@ -12,6 +13,7 @@
     object-fit: cover;
 }
 .singleposttitle{
+    
     font-family: 'Lora', serif;
     margin: 10px;
     text-align: center;

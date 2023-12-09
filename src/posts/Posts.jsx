@@ -1,15 +1,21 @@
 import Post from "../post/Post"
 import "./posts.css"
 
-const Posts = () => {
+const Posts = ({posts}) => {
   return (
     <div className="posts">
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
+      { posts &&
+        posts.map((p)=>{
+         
+          return <Post post={p}/>
+          
+         
+         
+        })
+      }
+     
+     
+
         </div>
   )
 }
